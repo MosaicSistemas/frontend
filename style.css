@@ -22,7 +22,7 @@
     font-family: 'ramillas';
 }
 body {
-    background-color: rgb(255, 255, 225);
+    background-color: #fdf7e9;
     overflow-x: hidden;
 }
 
@@ -36,14 +36,16 @@ header {
     justify-content: center;
 }
 nav {
-    justify-self: flex-start;
+    position: absolute;
+    top: 0;
+    width: 100vw;
     display: flex;
     justify-content: space-around;
     height: 50px;
 }
 nav a {
     text-decoration: none;
-    color: #f9f7dc;
+    color: #ebb223;
     font-size: 20px;
     padding-top: 10px;
 }
@@ -70,12 +72,21 @@ h2 {
 section.produto {
     width: 300px;
     height: 350px;
+    padding: 5px;
     border: 1px solid #000;
     background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
 }
 .produto img {
     height: 175px;
-    margin: 5px;
+    margin: auto;
+    display: block;
+}
+.produto h3 {
+    color: #ebb223;
 }
 
 #comentarios {
@@ -90,7 +101,7 @@ main button {
     border: none;
     text-decoration: underline;
     display: block;
-    margin: 38px auto;
+    margin: auto;
 }
 
 main p {
