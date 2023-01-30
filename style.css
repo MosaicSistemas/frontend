@@ -105,43 +105,17 @@ main p span {
 }
 
 footer {
-    background-image: url('images/rodape.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-color: #ebb223;
     color: #f9f7dc;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     text-align: center;
-    height: 500px;
-}
-footer > span {
-    font-size: 40px;
-    font-family: "grotesk";
-}
-@media (max-width: 500px) {
-    footer > span {
-        display: none;
-    }
-}
-
-#dados {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    font-size: 25px;
-    gap: 20px;
-}
-#dados span {
-    font-size: 20px;
-}
-
-#midia {
     font-size: 30px;
     font-family: "grotesk";
+    padding: 10px;
 }
-#midia div {
+footer div {
     display: flex;
     justify-content: center;
     gap: 20px;
