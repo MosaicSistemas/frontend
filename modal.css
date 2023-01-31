@@ -5,19 +5,54 @@
     background-color: #ebb223;
     color: #fdf7e9;
 }
-img {
+.modal img {
     margin: auto;
     display: block;
-    width: 300px;
+    width: 270px;
 }
 h3 {
     color: #ebb223;
     text-align: center;
     font-size: 24px;
     margin: 5px auto;
+    width: 270px;
 }
 p {
     text-align: center;
     font-size: 16px;
+    width: 270px;
+    margin: 5px auto;
+}
+form {
+    width: 270px;
+    margin: auto;
+}
+input {
+    width: 100%;
+    height: 30px;
+}
+.modal-footer {
+    flex-wrap: wrap-reverse;
 }
 
+.primary {
+    background-color: #ebb223;
+    color: #fdf7e9;
+    border-color: #ebb223;
+    flex: 1 1 180px;
+}
+.primary:hover {
+    background-color: #bc8e1c;
+    color: #fdf7e9;
+    border-color: #bc8e1c;
+}
+.secondary {
+    background: none;
+    border: 2px solid #ebb223;
+    color: #ebb223;
+    flex: 1 1;
+}
+.secondary:hover {
+    border-color: #bc8e1c;
+    color: #bc8e1c;
+}
